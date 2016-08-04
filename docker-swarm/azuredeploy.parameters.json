@@ -1,0 +1,21 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sshPublicKey": {
+      "value": "RSA key"
+    },
+    "nodeCount": {
+      "value": 1
+    },
+    "clusterName": {
+      "value": "test-cluster-1"
+    },
+    "installScript": {
+      "value": "https://raw.githubusercontent.com/phagunbaya/azure-templates/master/docker-swarm/installer.sh"
+    },
+    "installCommand": {
+      "value": "sh installer.sh"
+    }
+  }
+}
