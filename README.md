@@ -1,9 +1,9 @@
 # azure-templates
 
-
 ### acs-swarm
 
 Installing swarm service via azure container service automation
+
 
 ### docker-swarm
 
